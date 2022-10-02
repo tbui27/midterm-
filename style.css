@@ -1,0 +1,97 @@
+*{
+    margin: 0; padding: 0; border: 0;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  html, body, .page {
+    height: auto;
+    min-height: 100vh;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  ul {
+    margin: 20px;
+  }
+  
+  .page {
+    padding: 2em;
+  }
+  
+  #menu {
+    background-color:rgb(167, 178, 242);
+    color: #ddd;
+    line-height: 4em;
+    padding: 0 1em;
+    position: fixed;
+    top: 0em;
+    width: 100%;
+  }
+  
+  #menu a, #menu a:link, #menu a:visited, #menu a:hover, #menu a:active {
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 1em;
+  }
+  
+  #menu a:hover {
+    color: #4861A2;
+  }
+  
+  #menu div {
+    display: inline-block;
+  }
+  
+  .right {
+    position: absolute;
+    right: 100px;
+  }
+  
+  h2 {
+    font-size: 3em;
+    padding-top: 1em;
+    text-align: center;
+  }
+  
+  #one { background-image: url("Gradient_Builder_2.jpg.webpage");}
+  #two { background-color: rgb(170, 193, 245); }
+  #three { background-color: rgb(247, 221, 237); }
+  #four { background-color: rgb(200, 244, 214); }
+
+ 
+  .hero img{
+    width: 100%;
+  }
+  left_div, middle_div, right_div{
+    border: 3px dotted lightblue;
+    width: 33.3%;
+    margin-right: 3%;
+    display: inline-block;
+  }
+  right_div{
+    float: right; 
+    margin-right: 0 3%;
+  }
+  
+  middle_div{
+    margin: 0 3%;
+  }
+  aside img{
+    width: 100%;
+  }
+
+.background_div img{
+    width: 100%;
+}
+
+.hero img{
+   width: 100%; 
+}
+
